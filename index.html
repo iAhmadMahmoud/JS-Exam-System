@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exam System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="continer">
+            <h1>JavaScript Exam ITI</h1>
+            <div class="Reset" id="Reset">
+                <input type="button" value="Reset Exam" id="ResetBtn">
+            </div>
+            <div class="input-section" id="input-section">
+                <div class="question">
+                    <h2 id="header"></h2>
+                    <p id="txt"></p>
+                    <input type="text" name="user-answer" id="user-answer" placeholder="Type your answer here...">
+                </div>
+                <div class="dirctBtn">
+                    <input type="button" value="← Prev" id="PrevBtn">
+                    <input type="button" value="Next →" id="NextBtn">
+                </div>
+                <div class="finishBtn">
+                    <input type="button" value="Finish Exam" id="FinishBtn">
+                </div>
+            </div>
+            <div class="result-section" id="result-section">
+                <p id="result">Hello from result section</p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
