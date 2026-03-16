@@ -41,7 +41,7 @@ The architecture follows a modular separation of concerns:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/quiz-engine.git
+git clone git@github.com:iAhmadMahmoud/JS-Exam-System.git
 ```
 
 ### 2. Run Locally
