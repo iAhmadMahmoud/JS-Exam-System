@@ -17,7 +17,14 @@ A robust, Object-Oriented JavaScript application designed to manage dynamic exam
  
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge&logo=github)](https://iahmadmahmoud.github.io/JS-Exam-System/)
  
+---
+## 📺 Project Walkthrough
 
+Check out the interactive quiz engine in action, showcasing state persistence and automated grading:
+
+https://github.com/iAhmadMahmoud/JS-Exam-System/raw/main/assets/lab2-part2.mp4
+
+> **Note:** If the video doesn't play automatically, you can find it in the `assets/` folder.
 
 ---
 ## 🛠️ Project Structure
@@ -25,6 +32,7 @@ A robust, Object-Oriented JavaScript application designed to manage dynamic exam
 The architecture follows a modular separation of concerns:
 
 ```
+├── assets/          # Project demonstration video
 ├── index.html       # The main UI structure
 ├── style.css        # Custom styles for exam and results
 ├── src/
